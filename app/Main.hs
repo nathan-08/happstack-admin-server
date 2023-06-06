@@ -70,6 +70,7 @@ template title body = toResponse $
         H.tr $ do
           H.td $ a ! href "/"             $ "home"
           H.td $ a ! href "/auth-change"  $ "change credentials"
+          H.td $ a ! href "https://www.librorumadyton.net/"  $ "public page"
       H.div ! A.id "body-div" $ do
         body
 
